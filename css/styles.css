@@ -131,8 +131,8 @@ header address li:not(:last-child) {
 }
 
 .header-nav-link.current::after {
-  position: relative;
-  top: 31px;
+  position: absolute;
+  bottom: -32px;
   display: block;
   content: '';
 
