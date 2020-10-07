@@ -226,10 +226,38 @@ header address li:not(:last-child) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
   width: 528px;
   height: 581px;
   background-color: #fff;
 }
+
+.close-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  min-width: 200px;
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
+}
+
+/* display: inline-block;
+  align-items: center;
+  text-align: center;
+   */
+
 /* =======END HERO========== */
 
 /* ========FEATURES========= */
