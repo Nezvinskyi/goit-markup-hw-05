@@ -101,6 +101,10 @@ header address li:not(:last-child) {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+
+  transition-property: color;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-item {
@@ -112,6 +116,10 @@ header address li:not(:last-child) {
   letter-spacing: 0.02em;
   color: var(--add-text-color);
   fill: var(--add-text-color);
+
+  transition-property: color, fill;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-item:not(:last-child) {
@@ -397,6 +405,10 @@ header address li:not(:last-child) {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+
+  transition-property: fill, border;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -480,6 +492,10 @@ footer address {
   color: var(--main-text-color);
   background-color: #f5f4fa;
   border: transparent;
+
+  transition-property: color, background-color, box-shadow;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-button:hover,
@@ -498,7 +514,6 @@ footer address {
   position: relative;
   width: 370px;
   background: #ffffff;
-  /* border: 1px solid #eeeeee; */
 }
 .project-container:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -552,6 +567,13 @@ footer address {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
+  transform: translateY(100%);
+  /* overflow: hidden; */
+
+  /* transition-property: translateY(0);
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .project-description {
@@ -620,6 +642,10 @@ footer address {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  transition-property: background-color, fill;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item:hover,
