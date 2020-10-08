@@ -243,8 +243,8 @@ header address li:not(:last-child) {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-start;
 
   width: 528px;
   height: 581px;
@@ -254,21 +254,18 @@ header address li:not(:last-child) {
 }
 
 .close-btn {
-  display: inline-block;
-  margin-bottom: 20px;
+  display: block;
+  width: 30px;
+  height: 30px;
 
-  min-width: 200px;
-  padding: 10px 32px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: transparent;
+  background-image: url(../images/close-black.svg);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  margin: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* =======END HERO========== */
