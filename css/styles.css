@@ -477,6 +477,10 @@ footer address {
   color: rgba(255, 255, 255, 0.6);
 }
 
+footer address li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* ========== END FOOTER ============ */
 
 /* ======== PORTFOLIO ======== */
