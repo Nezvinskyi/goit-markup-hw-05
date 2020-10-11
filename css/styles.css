@@ -591,8 +591,8 @@ footer address li:not(:last-child) {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-container:hover .overlay,
-.project-container:focus .overlay {
+.project-container-link:hover .overlay,
+.project-container-link:focus .overlay {
   transform: translateY(-100%);
   visibility: visible;
   pointer-events: auto;
