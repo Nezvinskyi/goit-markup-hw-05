@@ -242,9 +242,6 @@ header address li:not(:last-child) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
 
   width: 528px;
   height: 581px;
@@ -257,6 +254,9 @@ header address li:not(:last-child) {
 }
 
 .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   display: block;
   width: 30px;
   height: 30px;
@@ -266,7 +266,7 @@ header address li:not(:last-child) {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
-  margin: 8px;
+  /* margin: 8px; */
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -510,7 +510,6 @@ footer address li:not(:last-child) {
 
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
-  /* transition-delay: 250ms; */
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
